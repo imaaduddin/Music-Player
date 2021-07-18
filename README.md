@@ -1,0 +1,1 @@
+An app that plays music. Build this following a guide to practice my JavaScript skills.
