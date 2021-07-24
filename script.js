@@ -9,9 +9,19 @@ const nextBtn = document.getElementById("next");
 // Music
 const songs = [
   {
-    name: "",
-    displayName: "",
-    artist: ""
+    name: "imaad-1",
+    displayName: "Fights",
+    artist: "AGST",
+  },
+  {
+    name: "imaad-2",
+    displayName: "Unite!",
+    artist: "Donell Mase",
+  },
+  {
+    name: "imaad-3",
+    displayName: "Lift Off",
+    artist: "Killrude"
   }
 ];
 
