@@ -88,6 +88,9 @@ function updateProgressBar(e) {
   if (isPlaying) {
     const {duration, currentTime} = e.srcElement;
     console.log(duration, currentTime);
+    // Update progress bar width
+    const progressPercent = (currentTime / duration) * 100;
+    progress.style.width = `${progressPercent}%`;
   }
 }
 
